@@ -1,5 +1,12 @@
+body {
+  margin: 0;
+}
 #global {
+  display: flex;
   background-color: pink;
+  height: 100vh;
+  flex-flow: column;
+  justify-content: space-around;
 }
 h1 {
   text-align: center;
@@ -12,6 +19,7 @@ nav {
   display: flex;
 }
 nav ul {
+  margin-bottom: 300px;
   list-style-type: none;
 }
 nav ul li {
@@ -28,8 +36,10 @@ nav ul li a:hover {
 #centre {
   display: flex;
   background-color: red;
-  height: 300px;
   flex-wrap: wrap;
+}
+#centre h2 {
+  text-align: center;
 }
 div#premier {
   display: flex;
