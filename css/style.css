@@ -1,6 +1,7 @@
 #global {
 
 	background-color: pink;
+	
 
 
 }
@@ -11,6 +12,14 @@ h1 {
 	text-align: center;
 
 }
+
+
+h2 {
+
+	text-align: center;
+
+}
+
 
 nav {
 
@@ -35,5 +44,39 @@ nav ul li {
 nav ul li a {
 
 	text-decoration: none;
+
+}
+
+#centre {
+
+	display: flex;
+	background-color: red;
+	height: 300px;
+
+}
+
+div#premier {
+
+	display: flex;
+	background-color: grey;
+
+}
+
+div#deuxieme {
+
+	display: flex;
+	background-color: grey;
+
+}
+
+footer {
+
+	background-color: blue;
+}
+
+footer p {
+
+	padding: 30px;
+	font-size: 1em;
 
 }
