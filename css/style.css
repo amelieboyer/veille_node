@@ -34,7 +34,7 @@ nav ul li a:hover {
 }
 #centre {
   display: flex;
-  background-color: navy;
+  background-color: #000080;
   flex-wrap: wrap;
 }
 #centre h2 {
@@ -65,7 +65,7 @@ div#deuxieme p {
 }
 footer {
   display: flex;
-  background-color: #404040;
+  background-color: #606060;
 }
 footer p {
   color: white;
