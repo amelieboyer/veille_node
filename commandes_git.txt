@@ -1,2 +1,4 @@
 git remote add origin https://github.com/amelieboyer/veille_node.git
 git push -u origin master
+
+git add . //indexer l'ensemble des fichiers modifiés
