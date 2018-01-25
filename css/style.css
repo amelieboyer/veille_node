@@ -23,7 +23,7 @@ h2 {
 
 nav {
 
-	
+	display: flex;
 
 }
 
@@ -44,6 +44,7 @@ nav ul li {
 nav ul li a {
 
 	text-decoration: none;
+	font-family: arial;
 
 }
 
@@ -52,6 +53,7 @@ nav ul li a {
 	display: flex;
 	background-color: red;
 	height: 300px;
+	flex-wrap: wrap;
 
 }
 
@@ -59,6 +61,7 @@ div#premier {
 
 	display: flex;
 	background-color: grey;
+	margin: 2px;
 
 }
 
@@ -66,11 +69,12 @@ div#deuxieme {
 
 	display: flex;
 	background-color: grey;
-
+	margin: 2px;
 }
 
 footer {
 
+	display: flex;
 	background-color: blue;
 }
 
@@ -80,3 +84,5 @@ footer p {
 	font-size: 1em;
 
 }
+
+
