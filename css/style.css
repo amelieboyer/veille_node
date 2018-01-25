@@ -34,15 +34,16 @@ nav ul li a:hover {
 }
 #centre {
   display: flex;
-  background-color: red;
+  background-color: navy;
   flex-wrap: wrap;
 }
 #centre h2 {
   text-align: center;
+  color: white;
 }
 div#premier {
   display: flex;
-  background-color: grey;
+  background-color: white;
   margin: 6px;
   border-radius: 4px;
 }
@@ -53,7 +54,7 @@ div#premier p {
 }
 div#deuxieme {
   display: flex;
-  background-color: grey;
+  background-color: white;
   margin: 6px;
   border-radius: 4px;
 }
@@ -62,22 +63,12 @@ div#deuxieme p {
   font-family: 'Raleway';
   padding: 10px;
 }
-div#troisieme {
-  display: flex;
-  background-color: grey;
-  margin: 6px;
-  border-radius: 4px;
-}
-div#troisieme p {
-  display: flex;
-  font-family: 'Raleway';
-  padding: 10px;
-}
 footer {
   display: flex;
-  background-color: blue;
+  background-color: #404040;
 }
 footer p {
+  color: white;
   padding: 30px;
   font-size: 1em;
   font-family: 'Raleway';
