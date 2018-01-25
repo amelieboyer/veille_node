@@ -1,4 +1,39 @@
 #global {
 
 	background-color: pink;
+
+
+}
+
+
+h1 {
+
+	text-align: center;
+
+}
+
+nav {
+
+	
+
+}
+
+nav ul {
+
+	list-style-type: none
+
+
+}
+
+nav ul li {
+
+	display: inline-block;
+	padding: 10px;
+
+}
+
+nav ul li a {
+
+	text-decoration: none;
+
 }
