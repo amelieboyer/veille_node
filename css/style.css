@@ -42,6 +42,7 @@ nav ul li a:hover {
 }
 #centre h2 {
   color: white;
+  font-style: italic;
 }
 div#premier {
   display: flex;
