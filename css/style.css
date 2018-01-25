@@ -3,7 +3,6 @@ body {
 }
 #global {
   display: flex;
-  background-color: pink;
   height: 100vh;
   flex-flow: column;
   justify-content: space-around;
@@ -44,24 +43,35 @@ nav ul li a:hover {
 div#premier {
   display: flex;
   background-color: grey;
-  margin: 2px;
+  margin: 6px;
+  border-radius: 4px;
 }
 div#premier p {
   display: flex;
   font-family: 'Raleway';
+  padding: 10px;
 }
 div#deuxieme {
   display: flex;
   background-color: grey;
-  margin: 2px;
+  margin: 6px;
+  border-radius: 4px;
 }
 div#deuxieme p {
   display: flex;
   font-family: 'Raleway';
+  padding: 10px;
+}
+div#troisieme {
+  display: flex;
+  background-color: grey;
+  margin: 6px;
+  border-radius: 4px;
 }
 div#troisieme p {
   display: flex;
   font-family: 'Raleway';
+  padding: 10px;
 }
 footer {
   display: flex;
