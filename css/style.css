@@ -22,6 +22,9 @@ nav ul li a {
   text-decoration: none;
   font-family: 'Raleway';
 }
+nav ul li a:hover {
+  text-decoration: underline;
+}
 #centre {
   display: flex;
   background-color: red;
@@ -34,6 +37,7 @@ div#premier {
   margin: 2px;
 }
 div#premier p {
+  display: flex;
   font-family: 'Raleway';
 }
 div#deuxieme {
@@ -42,9 +46,11 @@ div#deuxieme {
   margin: 2px;
 }
 div#deuxieme p {
+  display: flex;
   font-family: 'Raleway';
 }
 div#troisieme p {
+  display: flex;
   font-family: 'Raleway';
 }
 footer {
